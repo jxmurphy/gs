@@ -1,28 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang=en>
 <head>
-<meta charset="utf-8">
-<title>Gravity  - We build winning products</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Six Revisions">
-  <meta name="description" content="">
-  <link rel="icon" href="images/favi.png" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="pretty.css">
-  <link rel="stylesheet" href="main.css">
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="pretty.js"></script>
+	<meta charset=utf-8>
+  <title>Gravity - We Build Winning Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="js/main.js">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
-
 <body>
-  <header class="container">
-    <section class="content">
-      <h1>Gravity</h1>
-      <p class="sub-title"><strong>We Build Winning Products</p>
-    </section>
+  <nav class="main-nav">
+    <ul class="ah-navigation">
+      <li><a data-content="home" href="#" class="link selected"><span>About</span></a></li>
+      <li><a data-content="expertise" href="#" class="link"><span>Experience</span></a></li>
+      <li><a data-content="contact" href="#" class="link"><span>Contact</span></a></li>
+    </ul>
+    <a href="#" class="close-menu">Close<span></span></a>
+  </nav>
+  <header class="ah-header">
+    <a class="menu-trigger" href="main-nav"><span></span></a>
   </header>
+  <main class="main-content">
+    <ul class="ah-tabs-content">
+      <li data-content="home" class="home selected">
+        <div class="logo"></div>
+        <p class="intro-text">Hello! We are <strong>Gravity</strong>, a San Francisco collective of CTOs and Product Designers helping startups and small businesses build and grow their digital products.
+</p>
+      </li>
+      <li data-content="expertise" class="expertise">
+        <div id="britehub" class="experience">
+          <img src="images/client_list.svg" alt="Client List" >
+          <h4><strong>Clients</strong></h4>
+          <p class="experience-description">The team at Gravity has been in the San Francisco bay area for close to a decade. We are proud to have worked and collaborated with a number of respected companies for their approach to both technology and design. Some of these companies include: Google, Tesla, Yahoo, Uber, and more.</p>
+        </div>
+      </li>
+      <li data-content="contact" class="contact">
+        <p class="contact-text">Contact us today.<br><b><a href="mailto:contact@gravitystudios.co">contact@gravitystudios.co</a></b></p>
+      </li>
+  </ul>
+  <footer>
+    <span class="copyright">&copy; Gravity Studios 2016</span>
+  </footer>
+  </main>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
